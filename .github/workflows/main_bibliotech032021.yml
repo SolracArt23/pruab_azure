@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'bibliotech032021'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_40926e55eaa043888a41bdc173518f45 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_18e49ac03b35422db9ec33bf40905594 }}
