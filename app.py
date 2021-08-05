@@ -10,7 +10,7 @@ def favicon():
 @vent.route('/')
 def Index():
     
-    return 'hola mundo'
+    return render_template('index.html')
 
 if __name__ == '__main__':
     vent.run(port=8000)
